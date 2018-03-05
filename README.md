@@ -14,9 +14,7 @@ Summary: A plugin for pytest devs to view how assertion rewriting recodes the AS
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pytest-ast-back-to-python-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pytest-ast-back-to-python-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pytest-ast-back-to-python-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pytest-ast-back-to-python-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pytest-ast-back-to-python-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pytest-ast-back-to-python-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/pytest-ast-back-to-python-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pytest-ast-back-to-python-feedstock)
 
 Current release info
 ====================
