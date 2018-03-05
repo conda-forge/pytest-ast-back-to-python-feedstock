@@ -1,6 +1,6 @@
 {% set name = "pytest-ast-back-to-python" %}
-{% set version = "1.0.1" %}
-{% set hash = "c459b3ea9b0a41f2cdf6c80b7642db1ee40d74b98b58434749932190b82c2e4e" %}
+{% set version = "1.1.0" %}
+{% set hash = "c138070585d2e89b85dee8f7470069e149ee3552030144e769541cdb529dee14" %}
 package:
   name: {{ name }}
   version: {{ version }}
@@ -11,6 +11,7 @@ source:
   sha256: {{ hash }}
 
 build:
+  noarch: python
   number: 0
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
