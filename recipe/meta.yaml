@@ -1,6 +1,6 @@
 {% set name = "pytest-ast-back-to-python" %}
-{% set version = "1.1.0" %}
-{% set hash = "c138070585d2e89b85dee8f7470069e149ee3552030144e769541cdb529dee14" %}
+{% set version = "1.2.1" %}
+{% set hash = "1e594728637d0d03f639b91dc6afdb03f90dd8ccf783ec714545f18d0e9232dc" %}
 package:
   name: {{ name }}
   version: {{ version }}
