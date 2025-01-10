@@ -13,7 +13,7 @@ source:
 build:
   noarch: python
   number: 1
-  script: python setup.py install --single-version-externally-managed --record=record.txt
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -33,7 +33,8 @@ test:
 
 about:
   home: https://github.com/tomviner/pytest-ast-back-to-python
-  license: BSD-3
+  license: BSD-3-Clause
+  license_file: LICENSE
   license_family: BSD
   summary: 'A plugin for pytest devs to view how assertion rewriting recodes the AST'
   dev_url: https://github.com/tomviner/pytest-ast-back-to-python
